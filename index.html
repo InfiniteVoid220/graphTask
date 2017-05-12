@@ -4,7 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Graph</title>
 
-	<link rel="stylesheet" type="text/css" href="style/global-style.css">
+	<link rel="stylesheet" type="text/css" href="styles/global-style.css">
+	<link rel="stylesheet" type="text/css" href="styles/axis-scale.css">
+	<link rel="stylesheet" type="text/css" href="styles/graph-grid.css">
+	<link rel="stylesheet" type="text/css" href="styles/headers.css">
+	<link rel="stylesheet" type="text/css" href="styles/table.css">
+	
 </head>
 <body>
 	<div class="wrapper">
@@ -43,7 +48,7 @@
 				</ul>
 			</div>
 
-			<canvas class="plane"></canvas>
+			<canvas id="graph-plane" class="plane"></canvas>
 
 			<ul class="x-axis-values" id="lol">
 				   <li>0</li><!--
@@ -58,64 +63,21 @@
 			</ul>
 		</div>
 
-		<div class="caption">Month</div>
-		<table class="month-date">
+		<h1>Month</h1>
+		<table id="month" class="month-date">
 			<thead>
 				<tr>
 					<th>N=</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
-					<td><img></td>
-					<td>4907</td>
-					<td>4239</td>
-					<td>3624</td>
-					<td>3091</td>
-					<td>2092</td>
-					<td>1237</td>
-					<td>405</td>
-					<td>311</td>
-					<td>171</td>	
-				</tr>
-				<tr>
-					<td><img></td>
-					<td>4907</td>
-					<td>4239</td>
-					<td>3624</td>
-					<td>3091</td>
-					<td>2092</td>
-					<td>1237</td>
-					<td>405</td>
-					<td>311</td>
-					<td>171</td>	
-				</tr>
-				<tr>
-					<td><img></td>
-					<td>4907</td>
-					<td>4239</td>
-					<td>3624</td>
-					<td>3091</td>
-					<td>2092</td>
-					<td>1237</td>
-					<td>405</td>
-					<td>311</td>
-					<td>171</td>	
-				</tr>
-				<tr>
-					<td><img></td>
-					<td>4907</td>
-					<td>4239</td>
-					<td>3624</td>
-					<td>3091</td>
-					<td>2092</td>
-					<td>1237</td>
-					<td>405</td>
-					<td>311</td>
-					<td>171</td>	
-				</tr>
+
 			</tbody>
 		</table>	
 	</div>
+<script type="text/javascript" src="javascript/http-request.js"></script>
+<script type="text/javascript" src="javascript/load-table.js"></script>
+<script type="text/javascript" src="javascript/load-and-draw-graphs.js"></script>
 </body>
+
 </html>

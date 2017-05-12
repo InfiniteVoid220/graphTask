@@ -1,0 +1,52 @@
+{
+	"Month":[
+		{
+			"image": "all-exelianz.png",
+			"value1": "4907",
+			"value2": "4239",
+			"value3": "3624",
+			"value4": "3091",
+			"value5": "2092",
+			"value6": "1237",
+			"value7": "405",
+			"value8": "311",
+			"value9": "171"
+		},
+		{
+			"image": "xel-anz.png",
+			"value1": "1516",
+			"value2": "1295",
+			"value3": "1099",
+			"value4": "959",
+			"value5": "677",
+			"value6": "467",
+			"value7": "324",
+			"value8": "271",
+			"value9": "153"
+		},
+		{
+			"image": "all-xel-anz-cs.png",
+			"value1": "3168",
+			"value2": "2721",
+			"value3": "2296",
+			"value4": "1947",
+			"value5": "1491",
+			"value6": "824",
+			"value7": "239",
+			"value8": "202",
+			"value9": "161"
+		},
+		{
+			"image": "all-xel-anz-monotherapy.png",
+			"value1": "1739",
+			"value2": "1518",
+			"value3": "1328",
+			"value4": "1144",
+			"value5": "601",
+			"value6": "413",
+			"value7": "166",
+			"value8": "109",
+			"value9": "10"
+		}
+	]
+}

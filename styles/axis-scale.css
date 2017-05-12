@@ -1,0 +1,42 @@
+.y-axis-caption{
+	display: inline-block;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	transform-origin: 50% 50% 0;
+	font-weight: 800;
+	width: 45px;
+	font-size: 12px;
+	height: 221px;
+	margin-bottom: 25px;
+	text-align: center;	
+}
+
+.y-axis-values{
+	float: left;
+	margin-top: -7px;
+	padding-right: 5px;
+}
+
+.y-axis-values li{
+	height: 42px;
+	text-align: right;
+}
+.y-axis-values li:last-child{
+	height: auto;
+}
+
+.x-axis-values {
+	position: relative;
+	white-space: nowrap;
+}
+
+.x-axis-values li{ 
+	margin-right: 25px;
+	text-align: center;
+	width: 45px;
+	display: inline-block;
+}
+
+.x-axis-values li:nth-last-child(2){
+	margin-right:0;
+}
