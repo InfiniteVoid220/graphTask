@@ -5,7 +5,7 @@ function loadTableFromJSON(){
     		tableHTML += "<tr>";
             for (var key in tableDataJSON.Month[i]) {
             	if(key == "image"){
-        			tableHTML += "<td><img src='list-bullets/"+tableDataJSON.Month[i][key] +"'></td>";
+        			tableHTML += "<td><img src='list-bullets-images/"+tableDataJSON.Month[i][key] +"'></td>";
         			continue;
         		}
                 tableHTML += "<td>" + tableDataJSON.Month[i][key] + "</td>";

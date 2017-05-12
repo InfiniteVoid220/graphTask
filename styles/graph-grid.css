@@ -34,18 +34,18 @@
 }
 
 .legend li:nth-child(1){
-	list-style-image: url(../list-bullets/all-exelianz.png);
+	list-style-image: url(../list-bullets-images/all-exelianz.png);
 }
 
 .legend li:nth-child(2){
-	list-style-image: url(../list-bullets/xel-anz.png);
+	list-style-image: url(../list-bullets-images/xel-anz.png);
 }
 
 .legend li:nth-child(3){
-	list-style-image: url(../list-bullets/all-xel-anz-cs.png);
+	list-style-image: url(../list-bullets-images/all-xel-anz-cs.png);
 }
 
 .legend li:nth-child(4){
-	list-style-image: url(../list-bullets/all-xel-anz-monotherapy.png);
+	list-style-image: url(../list-bullets-images/all-xel-anz-monotherapy.png);
 }
 
