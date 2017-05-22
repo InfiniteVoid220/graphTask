@@ -1,0 +1,34 @@
+
+.plane{
+	width: 563px;
+	height: 210px;
+	transform: translate(0, 210px);
+    transform: scale(1, -1);
+}
+
+.legend{
+	font-size: 10px;
+	position: absolute;
+	bottom: 26px;
+    right: 9px;
+}
+
+.legend li:nth-child(1){
+	list-style-image: url(../images/all-exelianz.png);
+}
+
+.legend li:nth-child(2){
+	list-style-image: url(../images/xel-anz.png);
+}
+
+.legend li:nth-child(3){
+	list-style-image: url(../images/all-xel-anz-cs.png);
+}
+
+.legend li:nth-child(4){
+	list-style-image: url(../images/all-xel-anz-monotherapy.png);
+}
+
+path{
+	stroke-width:3;
+}

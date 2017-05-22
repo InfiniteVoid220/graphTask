@@ -1,14 +1,19 @@
+
 function loadTableFromJSON(){
+
     function loadTable(tableDataJSON){
     	var tableHTML = "";
         for (var i=0;i<tableDataJSON.Month.length;i++){
     		tableHTML += "<tr>";
             for (var key in tableDataJSON.Month[i]) {
+                tableHTML += "<td>";
             	if(key == "image"){
-        			tableHTML += "<td><img src='images/"+tableDataJSON.Month[i][key] +"'></td>";
-        			continue;
-        		}
-                tableHTML += "<td>" + tableDataJSON.Month[i][key] + "</td>";
+        			tableHTML += "<img src='images/"+tableDataJSON.Month[i][key] +"'>";
+        		}else{
+                    tableHTML += tableDataJSON.Month[i][key];
+                }
+                tableHTML += "</td>";
+
             }
             tableHTML += "</tr>";
         }
@@ -21,4 +26,4 @@ function loadTableFromJSON(){
         });
     });
 }
-var tableLoadHendler = new loadTableFromJSON();
+loadTableFromJSON();

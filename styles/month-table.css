@@ -1,0 +1,17 @@
+
+.month-data th{
+	text-align: left;
+}
+.month-data td{
+	width: 45px;
+	text-align: center;
+	border-right: 23px solid transparent;
+	border-bottom: 5px solid transparent;
+}
+.month-data td:nth-last-child(2){
+	border-right: none;
+}
+.month-data td:nth-child(1){
+	border-right: 27px solid transparent;
+	text-align: left;
+}

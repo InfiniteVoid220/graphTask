@@ -6,66 +6,78 @@
 
 	<link rel="stylesheet" type="text/css" href="styles/global-style.css">
 	<link rel="stylesheet" type="text/css" href="styles/axis-scale.css">
-	<link rel="stylesheet" type="text/css" href="styles/graph-grid.css">
+	<link rel="stylesheet" type="text/css" href="styles/graph.css">
 	<link rel="stylesheet" type="text/css" href="styles/headers.css">
-	<link rel="stylesheet" type="text/css" href="styles/table.css">
-	
+	<link rel="stylesheet" type="text/css" href="styles/month-table.css">
+
 </head>
 <body>
 	<div class="wrapper">
 		<header>
 			TTE STUDIES - ACR70'
 		</header>
-		
-		<div class="y-axis-caption">
-			ACR20 responce rate %
-		</div><!--
 
-	 --><div class="graph-wrapper">
+		<div class="flex-wrapper">
 
-			<ul class="y-axis-values">
-				<li>100</li>
-				<li>80</li>
-				<li>60</li>
-				<li>40</li>
-				<li>20</li>
-				<li>0</li>
-			</ul>
-
-			<div class="graph-grid">
-				<ul class="grid">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+			<div class="y-axis-caption">
+				ACR20 responce rate %
+			</div>
+			<div class="graph-wrapper">
+			 	<ul class="y-axis-values">
+					<li>
+						<span>100</span>
+						<span class="tooltiptext">100</span>
+					</li>
+					<li>
+						<span>80</span>
+						<span class="tooltiptext">80</span>
+					</li>
+					<li>
+						<span>60</span>
+						<span class="tooltiptext">60</span>
+					</li>
+					<li>
+						<span>40</span>
+						<span class="tooltiptext">40</span>
+					</li>
+					<li>
+						<span>20</span>
+						<span class="tooltiptext">20</span>
+					</li>
+					<li>
+						<span>0</span>
+					</li>
 				</ul>
-				
+
+			    <svg id="graph-plane" class="plane">
+					<path id = "monotherapy" fill = "none"/>
+					<path id = "allXel" fill = "none"/>
+					<path id = "xelAnz" fill = "none"/>
+					<path id = "allXelAnz" fill = "none"/>
+				</svg>
+
 				<ul class="legend">
 					<li>ALL XEL|ANZ</li>
 					<li>XEL|ANZ 5 mg BiD</li>
 					<li>ALL XEL|ANZ + csDMARDs</li>
 					<li>ALL XEL|ANZ monotherapy</li>
 				</ul>
+
+				<ul class="x-axis-values" id="lol">
+				   <li>0</li><!--
+				--><li>12</li><!--
+				--><li>24</li><!--
+				--><li>36</li><!--
+				--><li>48</li><!--
+				--><li>60</li><!--
+				--><li>72</li><!--
+				--><li>84</li><!--
+				--><li>90</li>
+				</ul>
 			</div>
-
-			<canvas id="graph-plane" class="plane"></canvas>
-
-			<ul class="x-axis-values" id="lol">
-			   <li>0</li><!--
-			--><li>12</li><!--
-			--><li>24</li><!--
-			--><li>36</li><!--
-			--><li>48</li><!--
-			--><li>60</li><!--
-			--><li>72</li><!--
-			--><li>84</li><!--
-			--><li>90</li>
-			</ul>
 		</div>
-
 		<h1>Month</h1>
-		<table id="month" class="month-date">
+		<table id="month" class="month-data">
 			<thead>
 				<tr>
 					<th>N=</th>
