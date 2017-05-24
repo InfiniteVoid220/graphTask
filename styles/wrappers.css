@@ -1,0 +1,11 @@
+.wrapper{
+	display: inline-block;
+}
+
+.graph-wrapper{
+	position: relative;
+}
+
+.flex-wrapper{
+	display: flex;
+}

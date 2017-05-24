@@ -58,37 +58,3 @@
 .x-axis-values li:nth-last-child(2){
 	margin-right:0;
 }
-
-.tooltiptext {
-    visibility: hidden;
-    font-size: 12px;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 15%;
-    right: 120%;
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-.tooltiptext:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 100%;
-    margin-top:-5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent #555 transparent transparent ;
-}
-
-.y-axis-values li:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
